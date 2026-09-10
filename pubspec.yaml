@@ -1,0 +1,21 @@
+name: gorouter_mcp
+description: Drive a running Flutter app's GoRouter from an AI agent over the Dart VM Service, exposed as an MCP server.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.9.2 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ">=14.0.0 <17.0.0"
+  # Server-side only: used by bin/server.dart, never imported from lib/.
+  mcp_dart: ^2.4.2
+  vm_service: ">=14.0.0 <16.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
