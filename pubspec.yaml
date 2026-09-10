@@ -1,7 +1,13 @@
 name: gorouter_mcp
 description: Drive a running Flutter app's GoRouter from an AI agent over the Dart VM Service, exposed as an MCP server.
 version: 0.1.0
-publish_to: none
+repository: https://github.com/RiccardoCherchi/goroutermcp
+issue_tracker: https://github.com/RiccardoCherchi/goroutermcp/issues
+topics:
+  - go-router
+  - mcp
+  - navigation
+  - devtools
 
 environment:
   sdk: ">=3.9.2 <4.0.0"

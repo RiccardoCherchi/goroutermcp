@@ -19,14 +19,29 @@ stay out of the app binary.
 
 ```yaml
 dependencies:
+  gorouter_mcp: ^0.1.0
+```
+
+```
+flutter pub add gorouter_mcp
+```
+
+Or straight from git, to track `main`:
+
+```yaml
+dependencies:
   gorouter_mcp:
     git:
-      url: https://github.com/<owner>/gorouter_mcp.git
+      url: https://github.com/RiccardoCherchi/goroutermcp.git
+      ref: v0.1.0
+```
 
-# While developing the two together:
+While developing the app and the package together, point at your checkout:
+
+```yaml
 dependency_overrides:
   gorouter_mcp:
-    path: ../../projects/gorouter_mcp
+    path: ../gorouter_mcp
 ```
 
 ## Attach
